@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+:root {
+    --mainTextColor: ;
+    --mainTextFont: ;
+    --linksFont: ;
+    --linksTextColor: ;
+}
+
+
+.navbar-links {
+    color: var(--linksTextColor);
+    font: var(--linksFont);
+}
